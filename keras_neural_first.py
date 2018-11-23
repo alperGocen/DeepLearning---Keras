@@ -14,7 +14,7 @@ import numpy as np
 
 ## fix random seed for reproducibility
 np.random.seed(7)
-
+  
 #load pima indians dataset
 dataset = np.loadtxt("pima-indians-diabetes.csv",delimiter=",")
 # split into input (X) and output (Y) variables
